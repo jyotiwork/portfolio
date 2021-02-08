@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 @import url("https://use.typekit.net/sub3lud.css");
 
 /* General type rules */
 
 body{
-  font-family: "Work Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Degular", sans-serif;
+  font-size: 18px;
   /* background: #E0E7FF; */
-  color: #51557D;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   margin: 0;
@@ -15,24 +13,32 @@ body{
 
 a{
   text-decoration: none;
+  color: #000;
 }
 
+a:hover, a:visited:hover{
+  color: #444;
+}
+
+a:visited{
+  color: #000;
+}
 
 /* Rules for headings */
 
 h1, h2, h3, h4, h5, h6{
   font-family: "Degular", sans-serif;
-  color: #1D1F50;
   }
 
 h1{
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 60px;
   margin-top: 1em;
   margin-bottom: 0;
 }
 
 h2{
+  font-weight: 500;
   margin-top: 1em;
   margin-bottom: 0;
 }
@@ -126,11 +132,12 @@ header{
 
 .article-card{
   transition: .2s;
+  padding-bottom: 10px;
 }
 
-.article-card:hover{
-  transform: translateY(-3px);
-}
+/* .article-card:hover{
+  transform: translateY(-2px);
+} */
 
 
 
