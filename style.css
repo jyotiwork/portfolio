@@ -338,6 +338,9 @@ animation-iteration-count: infinite;
     max-width: var(--container-width-mobile);
   }
 
+.header-item{
+  font-size: 14px;
+}
   .author-block{
     margin-top: 20px;
     line-height: 1.4;
