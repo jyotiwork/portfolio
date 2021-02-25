@@ -352,7 +352,7 @@ animation-iteration-count: infinite;
   }
 
   .blog-container img{
-    max-width: 480px;
+    max-width: var(--container-width-mobile);
   }
 
   .intro{
@@ -360,7 +360,7 @@ animation-iteration-count: infinite;
   }
 
   .article-card img{
-    max-width: 480px !important;
+    max-width: var(--container-width-mobile) !important;
     margin-bottom: 10px !important;
   }
 
