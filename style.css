@@ -156,7 +156,6 @@ header{
 
 .article-card img{
   max-width: 480px !important;
-  max-height: 240px !important;
   margin-bottom: 10px !important;
 }
 
@@ -339,7 +338,7 @@ animation-iteration-count: infinite;
   }
 
 .header-item{
-  font-size: 14px;
+  font-size: 16px;
 }
   .author-block{
     margin-top: 20px;
